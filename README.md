@@ -19,9 +19,9 @@ L'architecture hexagonale peut être décomposée en trois parties principales :
 <h4> Infrastructure </h4>
 - C'est le cœur de l'application, où réside la logique métier.</br>
 - Il comprend les entités, les agrégats, les services de domaine et les règles métier.</br>
-- Cette couche est indépendante des détails de la mise en œuvre et doit être agnostique vis-à-vis de la technologie utilisée.</br>
+- Cette couche est indépendante des détails de la mise en œuvre et doit être agnostique vis-à-vis de la technologie utilisée.</br></br>
 
-<img src="https://github.com/Zaghdoudii/hexagonal-architecture/hexagonal-arch.png" width="250">
+<img src="https://github.com/Zaghdoudii/hexagonal-architecture/blob/master/hexagonal-arch.png" width="500">
 
 L'idée principale de l'architecture hexagonale est de maintenir la séparation des préoccupations entre ces trois couches, avec la couche du domaine au centre, entourée par les couches d'application et d'infrastructure. Cette séparation permet une plus grande flexibilité et facilite le remplacement ou la mise à niveau de composants sans affecter les autres parties du système.
 
